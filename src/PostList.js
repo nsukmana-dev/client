@@ -1,7 +1,9 @@
+import React from "react";
+
 import React, { useState } from "react";
 import axios from "axios";
 
-const PostCreate = () => {
+const PostList = () => {
   const [title, setTitle] = useState("");
 
   const onSubmit = async (event) => {
@@ -31,4 +33,4 @@ const PostCreate = () => {
   );
 };
 
-export default PostCreate;
+export default PostList;
